@@ -1,0 +1,46 @@
+@import "../../assets/styles/base/variables.scss";
+
+.nav {
+    background: linear-gradient(90deg, #142557 0%, #34426e 100%);;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+
+    @media (min-width: 768px){
+        padding: 10px 20px;
+    }
+
+    .logo {
+        width: 40%;
+
+        @media (min-width: 768px){
+            width: 279px;
+        }
+    }
+
+    .links {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-size: 12px;
+        font-family: $font-navBar;
+
+        @media (min-width: 768px){
+            gap: 30px;
+            font-size: 20px;
+            .no-active:hover{
+                transform: scale(1.2);
+                color: #ADD8E6;
+            }
+        }
+
+
+        .select-link {
+            border-bottom: 1px solid;
+            padding-bottom: 1px;
+            cursor: default;
+            color: #ADD8E6;
+            transform: scale(1.2);
+        }
+    }
+}
