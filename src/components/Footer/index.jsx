@@ -10,6 +10,7 @@ export default function Footer() {
         <div className="main-container">
             <div className="container-logo">
                 <img 
+                    loading="lazy"
                     className="logo"
                     src={logo} 
                     alt="logo du site de sébastien juillet" />

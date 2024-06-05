@@ -8,6 +8,7 @@ export default function AboutMe() {
         <h1 className="title-about-me">A PROPOS DE MOI</h1>
         <div className="profil">
             <img 
+                loading="lazy"
                 className="photo-profil" 
                 src={profilPhoto} 
                 alt="photo de profil de sébastien" />

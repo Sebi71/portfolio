@@ -6,6 +6,7 @@ export default function NavBar() {
   return (
     <nav className="nav">
         <img 
+            loading="lazy"
             className="logo"
             src={logo} 
             alt="logo du site de Sébastien Juillet" />
