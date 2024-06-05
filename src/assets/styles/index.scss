@@ -1,1 +1,7 @@
-@import "base/normalize", "base/typography";
+@import "base/normalize", "base/variables", "base/typography";
+
+* {
+    color: $color-text;
+    text-decoration: none;
+}
+

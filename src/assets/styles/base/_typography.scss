@@ -1,4 +1,13 @@
-* {
-    color: #fff;
-    text-decoration: none;
+body {
+    font-family: $font-text;
 }
+
+.links {
+    font-family: $font-navBar;
+}
+
+footer {
+    font-family: $font-footer;
+    font-weight: normal;
+}
+

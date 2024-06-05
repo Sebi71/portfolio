@@ -1,4 +1,4 @@
-import { NavLink, Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import logo from "../../assets/images/logo.webp"
 import "./index.scss"
 
@@ -20,7 +20,7 @@ export default function NavBar() {
                 to="/projects">
                     Projets
             </NavLink>
-            <Link to="contact">Contact</Link>
+            <a href="#contact">Contact</a>
         </div>
     </nav>
   )
