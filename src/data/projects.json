@@ -1,0 +1,243 @@
+[
+    {
+        "id": 1,
+        "title": "Riding-Cities",
+        "cover": "/src/assets/images/RidingCities/cover.webp",
+        "pictures": [
+            "/src/assets/images/RidingCities/cover.webp",
+            "/src/assets/images/RidingCities/main-one.webp",
+            "/src/assets/images/RidingCities/main-two.webp",
+            "/src/assets/images/RidingCities/footer.webp"
+        ],
+        "description": "text à mettre",
+        "skills": {
+            "name": "HTML",
+            "logo":""
+        },
+        "githubLink": "https://github.com/Sebi71/riding-cities.git",
+        "liveLink": "https://sebastienj-riding-cities.vercel.app/"
+    },
+    {
+        "id": 2,
+        "title": "Booki",
+        "cover": "/src/assets/images/Booki/cover.webp",
+        "pictures": [
+            "/src/assets/images/Booki/cover.webp",
+            "/src/assets/images/Booki/main-one.webp",
+            "/src/assets/images/Booki/main-two.webp",
+            "/src/assets/images/Booki/mobil-cover.webp",
+            "/src/assets/images/Booki/mobil-main-one.webp",
+            "/src/assets/images/Booki/mobil-main-two.webp",
+            "/src/assets/images/Booki/mobil-main-three.webp"
+        ],
+        "description": "text à mettre",
+        "skills": [
+            {
+                "name": "HTML",
+                "logo": ""
+            },
+            {
+                "name": "CSS",
+                "logo": ""
+            }
+        ],
+        "githubLink": "https://github.com/Sebi71/BOOKI.git",
+        "liveLink": "https://sebastienj-booki.vercel.app/"
+    },
+    {
+        "id": 3,
+        "title": "Oh my Food",
+        "cover": "/src/assets/images/OhMyFood/cover.webp",
+        "pictures": [
+            "/src/assets/images/OhMyFood/loading.webp",
+            "/src/assets/images/OhMyFood/cover.webp",
+            "/src/assets/images/OhMyFood/main.webp",
+            "/src/assets/images/OhMyFood/menu.webp",
+            "/src/assets/images/OhMyFood/mobil-cover.webp",
+            "/src/assets/images/OhMyFood/mobil-main.webp",
+            "/src/assets/images/OhMyFood/mobil-menu.webp"
+        ],
+        "description": "text à mettre",
+        "skills": [
+            {
+                "name": "HTML",
+                "logo": ""
+            },
+            {
+                "name": "SASS",
+                "logo": ""
+            }
+        ],
+        "githubLink": "https://github.com/Sebi71/OhMyFood.git",
+        "liveLink": "https://sebastienj-ohmyfood.vercel.app/"
+    },
+    {
+        "id": 4,
+        "title": "Print-It",
+        "cover": "/src/assets/images/PrintIt/one.webp",
+        "pictures": [
+            "/src/assets/images/PrintIt/one.webp",
+            "/src/assets/images/PrintIt/two.webp",
+            "/src/assets/images/PrintIt/three.webp",
+            "/src/assets/images/PrintIt/four.webp"
+        ],
+        "description": "text à mettre",
+        "skills": [
+            {
+                "name": "JavaScript",
+                "logo": ""
+            },
+            {
+                "name": "CSS",
+                "logo": ""
+            }
+        ],
+        "githubLink": "https://github.com/Sebi71/Print_It.git",
+        "liveLink": "https://sebastienj-print-it.vercel.app/"
+    },
+    {
+        "id": 5,
+        "title": "Sophie Bluel, architecte d'intérieur",
+        "cover": "/src/assets/images/SophieBluel/cover.webp",
+        "pictures": [
+            "/src/assets/images/SophieBluel/cover.webp",
+            "/src/assets/images/SophieBluel/categories.webp",
+            "/src/assets/images/SophieBluel/categories-filter.webp",
+            "/src/assets/images/SophieBluel/connexion-error.webp",
+            "/src/assets/images/SophieBluel/delete-modal.webp",
+            "/src/assets/images/SophieBluel/add-modal.webp"
+        ],
+        "description": "text à mettre",
+        "skills": [
+            {
+                "name": "JavaScript",
+                "logo": ""
+            },
+            {
+                "name": "CSS",
+                "logo": ""
+            },
+            {
+                "name": "HTML",
+                "logo": ""
+            }
+        ],
+        "githubLink": "https://github.com/Sebi71/Portfolio-architecte-sophie-bluel.git",
+        "liveLink": ""
+    },
+    {
+        "id": 6,
+        "title": "Kasa",
+        "cover": "/src/assets/images/Kasa/cover.webp",
+        "pictures": [
+            "/src/assets/images/Kasa/cover.webp",
+            "/src/assets/images/Kasa/housing.webp",
+            "/src/assets/images/Kasa/about.webp",
+            "/src/assets/images/Kasa/error-page.webp",
+            "/src/assets/images/Kasa/mobil-cover.webp",
+            "/src/assets/images/Kasa/mobil-housing.webp",
+            "/src/assets/images/Kasa/mobil-about.webp",
+            "/src/assets/images/Kasa/mobil-error-page.webp"
+        ],
+        "description": "text à mettre",
+        "skills": [
+            {
+                "name": "REACT",
+                "logo": ""
+            },
+            {
+                "name": "SASS",
+                "logo": ""
+            },
+            {
+                "name": "HTML",
+                "logo": ""
+            }
+        ],
+        "githubLink": "https://github.com/Sebi71/Kasa.git",
+        "liveLink": "https://sebastienj-kasa.vercel.app/"
+    },
+    {
+        "id": 7,
+        "title": "Nina Carducci, photographe",
+        "cover": "/src/assets/images/NinaCarducci/cover.webp",
+        "pictures": [
+            "/src/assets/images/NinaCarducci/cover.webp",
+            "/src/assets/images/NinaCarducci/main.webp",
+            "/src/assets/images/NinaCarducci/categories.webp",
+            "/src/assets/images/NinaCarducci/services.webp",
+            "/src/assets/images/NinaCarducci/contact.webp"
+        ],
+        "description": "text à mettre",
+        "skills": [
+            {
+                "name": "HTML",
+                "logo": ""
+            },
+            {
+                "name": "SEO",
+                "logo": ""
+            }
+        ],
+        "githubLink": "https://github.com/Sebi71/nina-carducci.git",
+        "liveLink": "https://sebastienj-nina-carducci.vercel.app/"
+    },
+    {
+        "id": 8,
+        "title": "724 Events",
+        "cover": "/src/assets/images/724Events/cover.webp",
+        "pictures": [
+            "/src/assets/images/724Events/cover.webp",
+            "/src/assets/images/724Events/categories.webp",
+            "/src/assets/images/724Events/categories-filtred.webp",
+            "/src/assets/images/724Events/contact.webp",
+            "/src/assets/images/724Events/contact-succes.webp",
+            "/src/assets/images/724Events/footer.webp"
+        ],
+        "description": "text à mettre",
+        "skills": [
+            {
+                "name": "REACT",
+                "logo": ""
+            },
+            {
+                "name": "Jest",
+                "logo": ""
+            }
+        ],
+        "githubLink": "https://github.com/Sebi71/724-Events.git",
+        "liveLink": "https://sebastienj-724events.vercel.app/"
+    },
+    {
+        "id": 9,
+        "title": "Argent Bank",
+        "cover": "/src/assets/images/ArgentBank/cover.webp",
+        "pictures": [
+            "/src/assets/images/ArgentBank/cover.webp",
+            "/src/assets/images/ArgentBank/signin.webp",
+            "/src/assets/images/ArgentBank/account.webp",
+            "/src/assets/images/ArgentBank/account-two.webp",
+            "/src/assets/images/ArgentBank/user-form.webp",
+            "/src/assets/images/ArgentBank/mobil-cover.webp",
+            "/src/assets/images/ArgentBank/mobil-signin.webp",
+            "/src/assets/images/ArgentBank/mobil-account.webp"
+        ],
+        "description": "text à mettre",
+        "skills": [
+            {
+                "name": "REACT",
+                "logo": ""
+            },
+            {
+                "name": "SASS",
+                "logo": ""
+            },
+            {
+                "name": "HTML",
+                "logo": ""
+            }
+        ],
+        "githubLink": "https://github.com/Sebi71/ArgentBank-website.git",
+        "liveLink": ""
+    }
+]

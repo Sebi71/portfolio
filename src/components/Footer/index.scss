@@ -1,3 +1,5 @@
+@import "../../assets/styles/base/variables.scss";
+
 .footer {
     background: linear-gradient(90deg, #142557 0%, #34426e 100%);
     padding: 10px 5px;
@@ -53,6 +55,33 @@
                 display: flex;
                 align-items: center;
                 gap: 10px;
+
+                &:hover  {
+                    .link {
+                        color: $color-secondary !important;
+                    }
+
+                    .mail {
+                        fill: #007fce;
+                        background-color: #fff;
+                        border-radius: 25px;
+                        transform: scale(1.2);
+                    }
+
+                    .linkedin {
+                        fill: #0063c2;
+                        background-color: #fff;
+                        transform: scale(1.2);
+                    }
+
+                    .github {
+                        fill: #5968ba;
+                        background-color: #fff;
+                        border-radius: 25px;
+                        transform: scale(1.2);
+                    }
+
+                }
             }
         }
     }

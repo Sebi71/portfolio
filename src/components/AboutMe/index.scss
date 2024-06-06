@@ -1,3 +1,5 @@
+@import "../../assets/styles/base/_variables.scss";
+
 .about-me {
     background-image: url("../../assets/images/font-presentation.webp");
     background-position: center center;
@@ -34,6 +36,7 @@
             width: 120px;
             border-radius: 50%;
             margin-bottom: 20px;
+            animation: appearance 1s ease-in-out;
 
             @media (min-width: 768px){
                 width: 250px;
@@ -46,7 +49,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            text-align: justify;
+            // text-align: justify;
             font-size: 14px;
             
             @media (min-width: 768px){
@@ -57,20 +60,35 @@
             .text {
                 margin: 5px 0;
             }
+            
+            .keyword {
+                color: $color-secondary;
+                font-weight: 800;
+            }
 
         }
     }
 
     .CV {
-        width: 200px;
+        padding: 5px 10px;
+        border-radius: 25px;
+        border: 1px solid #fff;
+        transition: 0.5s ease;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 40px;
-        padding: 5px;
-        border: 1px solid #fff;
-        border-radius: 25px;
         background-color: #381e1e;
+        cursor: pointer;
+        
+        
+        &:hover {
+        background: #008cff;
+        border: 1px solid #008cff;
+        text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+        box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+            0 0 100px #008cff;
+        }
 
         .logo-pdf{
             width: 20px;
@@ -81,4 +99,16 @@
             }
         }
     }
+      
 }
+
+@keyframes appearance {
+    0% {
+      transform: translateX(-200px) rotate(-360deg);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0) rotate(0);
+      opacity: 1;
+    }
+  }

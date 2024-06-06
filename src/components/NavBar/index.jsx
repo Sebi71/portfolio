@@ -21,7 +21,7 @@ export default function NavBar() {
                 to="/projects">
                     Projets
             </NavLink>
-            <a href="#contact">Contact</a>
+            <a className="no-active" href="#contact">Contact</a>
         </div>
     </nav>
   )

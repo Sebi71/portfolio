@@ -1,10 +1,12 @@
 @import "../../assets/styles/base/variables.scss";
 
 .nav {
-    background: linear-gradient(90deg, #142557 0%, #34426e 100%);;
+    background: linear-gradient(90deg, #142557 0%, #34426e 100%);
     display: flex;
     justify-content: space-between;
     padding: 10px 5px;
+    position: sticky;
+    top: 0;
 
     @media (min-width: 768px){
         padding: 10px 20px;
@@ -27,6 +29,11 @@
         @media (min-width: 768px){
             gap: 30px;
             font-size: 20px;
+
+            .no-active {
+                transition: transform 500ms ease-in-out, color 500ms ease-in-out;
+              }
+
             .no-active:hover{
                 transform: scale(1.2);
                 color: $color-secondary;
