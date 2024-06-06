@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Riding-Cities",
-        "cover": "/src/assets/images/RidingCities/cover.webp",
+        "cover": "/RidingCities/cover.webp",
         "pictures": [
             "/src/assets/images/RidingCities/cover.webp",
             "/src/assets/images/RidingCities/main-one.webp",
