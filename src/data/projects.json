@@ -20,7 +20,7 @@
     {
         "id": 2,
         "title": "Booki",
-        "cover": "/src/assets/images/Booki/cover.webp",
+        "cover": "/Booki/cover.webp",
         "pictures": [
             "/src/assets/images/Booki/cover.webp",
             "/src/assets/images/Booki/main-one.webp",

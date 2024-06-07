@@ -1,20 +1,9 @@
 import PropTypes from "prop-types"
 import { useState, useEffect } from "react"
 import "./index.scss"
-import { Link } from "react-router-dom";
-
-export default function Slider({images, filter}) {
-    const [isHovered, setIsHovered] = useState(false);
+export default function Slider({images, filter, btnRadio, navigate}) {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const slideNumber = images.length
-
-    const handleMouseEnter = () => {
-      setIsHovered(true);
-    }
-
-    const handleMouseLeave = () => {
-      setIsHovered(false);
-    }
+    const slideNumber = images.length;
 
     useEffect(() => {
         const interval = setTimeout(() => {
@@ -24,10 +13,7 @@ export default function Slider({images, filter}) {
     }, [currentIndex, slideNumber]);
 
   return (
-    <div 
-      className="slider"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}>
+    <div className="slider">
         {images.map((image, index) => (
         currentIndex === index && (
           <img className={` slide slide--${
@@ -36,33 +22,34 @@ export default function Slider({images, filter}) {
             src={image} 
             alt="" />)
         ))}
-        {isHovered && (
-          <Link 
-            to="/projects"
-            className={filter}>
+        {filter && (
+          <div className="view" onClick={navigate}>
               <h2 className="decover-title">Découvrir mes projets</h2>
-          </Link>
+          </div>
         )}
-        <fieldset className="radio-button">
-          <legend aria-label="Naviguer entre les slides" />
-          {images?.map((_, radioIdx) => (
-            <input
-              className="radio-button__input"
-              key={radioIdx}
-              type="radio"
-              name="radio-button"
-              aria-label={`radio button slide ${radioIdx + 1}`}
-              checked={currentIndex === radioIdx}
-              onChange={() => setCurrentIndex(radioIdx)}
-            />
-          ))}
-        </fieldset>
+        {btnRadio && (
+          <fieldset className="radio-button">
+            <legend aria-label="Naviguer entre les slides" />
+            {images?.map((_, radioIdx) => (
+              <input
+                className="radio-button__input"
+                key={radioIdx}
+                type="radio"
+                name="radio-button"
+                aria-label={`radio button slide ${radioIdx + 1}`}
+                checked={currentIndex === radioIdx}
+                onChange={() => setCurrentIndex(radioIdx)}
+              />
+            ))}
+          </fieldset>
+        )}
     </div>
   )
 }
 
 Slider.propTypes = {
   images: PropTypes.array,
-  filter: PropTypes.string
+  filter: PropTypes.bool,
+  btnRadio: PropTypes.bool,
+  navigate: PropTypes.func
 }
-
