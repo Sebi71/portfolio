@@ -1,6 +1,7 @@
 import NavBar from "../../components/NavBar";
 import AboutMe from "../../components/AboutMe";
 import Slider from "../../components/Slider";
+import Skills from "../../components/Skills";
 import Footer from "../../components/Footer";
 import { useNavigate } from "react-router-dom";
 
@@ -24,6 +25,7 @@ export default function Home() {
               filter={true}
               btnRadio={false}
               navigate={handleSliderClick}/>
+            <Skills />
           </section>
         <Footer />
     </>

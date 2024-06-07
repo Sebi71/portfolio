@@ -1,0 +1,49 @@
+.global-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+        
+    .container-skills {
+        position: relative;
+        margin-top: 50px;
+
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 70%;
+            height: 2px;
+            background-color: #daa520;
+        }
+
+        .title-skills {
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 30px;
+        }
+
+        .logos-skills {
+            display: flex;
+            justify-content: center;
+            gap: 55px;
+            margin-bottom: 20px;
+
+            .content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .skills {
+                    height: 70px;
+                }
+
+                // .logo-title {
+                //     font-size: 20px;
+                // }
+            }
+        }
+    }
+}
