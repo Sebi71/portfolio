@@ -74,12 +74,12 @@
     {
         "id": 4,
         "title": "Print-It",
-        "cover": "/src/assets/images/PrintIt/one.webp",
+        "cover": "/src/assets/images/PrintIt/slider-one.webp",
         "pictures": [
-            "/src/assets/images/PrintIt/one.webp",
-            "/src/assets/images/PrintIt/two.webp",
-            "/src/assets/images/PrintIt/three.webp",
-            "/src/assets/images/PrintIt/four.webp"
+            "/src/assets/images/PrintIt/slider-one.webp",
+            "/src/assets/images/PrintIt/slider-two.webp",
+            "/src/assets/images/PrintIt/slider-three.webp",
+            "/src/assets/images/PrintIt/slider-four.webp"
         ],
         "description": "text à mettre",
         "skills": [
@@ -166,7 +166,9 @@
             "/src/assets/images/NinaCarducci/main.webp",
             "/src/assets/images/NinaCarducci/categories.webp",
             "/src/assets/images/NinaCarducci/services.webp",
-            "/src/assets/images/NinaCarducci/contact.webp"
+            "/src/assets/images/NinaCarducci/contact.webp",
+            "/src/assets/images/NinaCarducci/front-lighthouse.webp",
+            "/src/assets/images/NinaCarducci/back-lighthouse.webp"
         ],
         "description": "text à mettre",
         "skills": [

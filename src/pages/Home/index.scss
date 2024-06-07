@@ -1,4 +1,8 @@
 .slider-skills {
     background: linear-gradient(180deg, #000 0%, #142557 100%);
-    padding: 100px 0;
+    padding: 30px 0;
+    
+    @media (min-width: 768px){
+        padding: 70px 0;
+    }
 }

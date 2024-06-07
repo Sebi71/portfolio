@@ -16,7 +16,7 @@ export default function Footer() {
                     alt="logo du site de sébastien juillet" />
             </div>
             <div>
-                <h3 id="contact">Contact :</h3>
+                <h2 id="contact">Contact :</h2>
                 <ul className="list-footer">
                     <li className="link-footer">
                         <MdAlternateEmail className="mail"/>
