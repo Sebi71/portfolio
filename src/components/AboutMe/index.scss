@@ -8,11 +8,10 @@
     background-blend-mode: darken;
     display: flex;
     flex-direction: column;
-    align-items: center;
 
     .title-about-me {
-        width: 100%;
-        margin: 0;
+        width: 300px;
+        margin: 0 auto;
         padding-top: 40px;
         text-align: center;
         font-size: 20px;
@@ -35,7 +34,7 @@
 
         .photo-profil {
             width: 120px;
-            aspect-ratio: 1/1;
+            height: 100%;
             border-radius: 50%;
             margin-bottom: 20px;
             animation: appearance 1s ease-in-out;
@@ -47,12 +46,11 @@
         }
 
         .text-profil {
-            width: 100%;
-            margin: 0;
+            max-width: 768px;
+            margin: 0 auto;
             display: flex;
             flex-direction: column;
             align-items: center;
-            // text-align: justify;
             font-size: 14px;
             
             @media (min-width: 768px){
@@ -73,6 +71,8 @@
     }
 
     .CV {
+        width: 200px;
+        margin: auto;
         padding: 5px 10px;
         border-radius: 25px;
         border: 1px solid #fff;

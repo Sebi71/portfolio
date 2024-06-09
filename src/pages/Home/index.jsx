@@ -57,10 +57,11 @@ export default function Home() {
           <section className="slider-skills">
             <div id="box1">
               <Slider 
-                  images={projects.map(project => project.cover)}
-                  filter={true}
-                  btnRadio={false}
-                  navigate={handleSliderClick}/>
+                title="MES PROJETS"
+                images={projects.map(project => project.cover)}
+                filter={true}
+                btnRadio={false}
+                navigate={handleSliderClick}/>
             </div>
             <div id="box2">
               <Skills />

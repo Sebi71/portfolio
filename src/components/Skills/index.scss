@@ -3,6 +3,8 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
+    width: 80%;
+    margin: auto;
 
     @media (min-width: 768px){
         margin-bottom: 60px;
@@ -25,7 +27,6 @@
 
         .title-skills {
             text-align: center;
-            margin:0 60px 25px 60px;
             font-size: 20px;
 
             @media (min-width: 768px){
@@ -38,7 +39,6 @@
             justify-content: center;
             flex-wrap: wrap;
             gap: 10px;
-            margin: 0 40px 10px 40px;
 
             @media (min-width: 768px){
                 gap: 55px;
