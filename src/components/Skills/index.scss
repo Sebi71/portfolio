@@ -2,7 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+
+    @media (min-width: 768px){
+        margin-bottom: 60px;
+    }
         
     .container-skills {
         position: relative;
@@ -21,15 +25,25 @@
 
         .title-skills {
             text-align: center;
-            margin-bottom: 25px;
-            font-size: 30px;
+            margin:0 60px 25px 60px;
+            font-size: 20px;
+
+            @media (min-width: 768px){
+                font-size: 30px
+            }
         }
 
         .logos-skills {
             display: flex;
             justify-content: center;
-            gap: 55px;
-            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 0 40px 10px 40px;
+
+            @media (min-width: 768px){
+                gap: 55px;
+                margin-bottom: 20px;
+            }
 
             .content {
                 display: flex;
@@ -37,12 +51,21 @@
                 align-items: center;
 
                 .skills {
-                    height: 70px;
+                    height: 20px;
+                    width: 100%;
+
+                    @media (min-width: 768px){
+                        height: 70px;
+                    }
                 }
 
-                // .logo-title {
-                //     font-size: 20px;
-                // }
+                .logo-title {
+                    font-size: 12px;
+
+                    @media (min-width: 768px){
+                        font-size: 18px;
+                    }
+                }
             }
         }
     }

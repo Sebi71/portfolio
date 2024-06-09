@@ -5,10 +5,45 @@ import Skills from "../../components/Skills";
 import Footer from "../../components/Footer";
 import { useNavigate } from "react-router-dom";
 
+import { useEffect } from "react";
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { ScrollToPlugin } from "gsap/ScrollToPlugin"
+
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
+
 import projects from "../../data/projects.json"
 import "./index.scss"
 
 export default function Home() {
+  const slideInLeft = (elem) => {
+    gsap.fromTo(
+      elem, 
+      {
+        opacity: 0,
+        x: -200},
+      {
+        opacity: 1,
+        x: 0,
+        delay: 0.4,
+        duration: 1.5,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: elem,
+          start: "top 80%",
+          end: "bottom center",
+        }
+      }
+    )
+  }
+
+  useEffect(() => {
+    slideInLeft("#box1")
+  },[])
+  useEffect(() => {
+    slideInLeft("#box2")
+  },[])
+
   const navigate = useNavigate();
 
   const handleSliderClick = () => {
@@ -20,12 +55,16 @@ export default function Home() {
         <NavBar />
           <AboutMe />
           <section className="slider-skills">
-            <Slider 
-              images={projects.map(project => project.cover)}
-              filter={true}
-              btnRadio={false}
-              navigate={handleSliderClick}/>
-            <Skills />
+            <div id="box1">
+              <Slider 
+                  images={projects.map(project => project.cover)}
+                  filter={true}
+                  btnRadio={false}
+                  navigate={handleSliderClick}/>
+            </div>
+            <div id="box2">
+              <Skills />
+            </div>
           </section>
         <Footer />
     </>
