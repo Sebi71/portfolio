@@ -36,7 +36,7 @@
             width: 120px;
             height: 100%;
             border-radius: 50%;
-            margin-bottom: 20px;
+            margin: auto;
             animation: appearance 1s ease-in-out;
 
             @media (min-width: 768px){
@@ -46,7 +46,7 @@
         }
 
         .text-profil {
-            max-width: 768px;
+            max-width: 1024px;
             margin: 0 auto;
             display: flex;
             flex-direction: column;
@@ -66,7 +66,6 @@
                 color: $color-secondary;
                 font-weight: 800;
             }
-
         }
     }
 
@@ -89,8 +88,7 @@
         background: #008cff;
         border: 1px solid #008cff;
         text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
-        box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
-            0 0 100px #008cff;
+        box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff, 0 0 100px #008cff;
         }
 
         .logo-pdf{

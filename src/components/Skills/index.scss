@@ -35,20 +35,27 @@
         }
 
         .logos-skills {
+            display: -webkit-box;
             display: flex;
+            flex-direction: row;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 10px;
+            // gap: 10px;
 
-            @media (min-width: 768px){
-                gap: 55px;
-                margin-bottom: 20px;
-            }
+            // @media (min-width: 768px){
+            //     gap: 55px;
+            //     margin-bottom: 20px;
+            // }
 
             .content {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                margin: 0 5px 20px 5px;
+
+                @media (min-width: 768px){
+                    margin: 0 22px 20px 22px;
+                }
 
                 .skills {
                     height: 20px;
