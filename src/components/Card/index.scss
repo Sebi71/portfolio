@@ -1,0 +1,68 @@
+@import "../../assets/styles/base/variables.scss";
+
+.global-container-cards {
+    background: linear-gradient(180deg, #000 0%, #142557 100%);
+    padding: 30px 20px 70px 20px;
+    
+    @media (min-width: 768px){
+        padding: 20px 50px 70px 50px;
+    }
+
+    .title-page {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+
+        .btn-filter {
+            background-color: $color-secondary;
+            color: #000;
+            font-size: 18px;
+            font-weight: 700;
+            border: none;
+            border-radius: 25px;
+            height: 35px;
+            min-width: 80px;
+            cursor: pointer;
+            padding: 0 10px;
+        }
+    }
+
+
+    .section-container {
+        max-width: 1440px;
+        
+        .title-section {
+            width: 50%;
+            font-size: 28px;
+        }
+        
+        .card-content {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 50px 30px;
+
+            @media (min-width: 768px){
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            @media (min-width: 1024px){
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .card-img  {
+                width: 100%;
+                aspect-ratio: 2/1.5;
+                object-fit: cover;
+                border-radius: 25px;
+            }
+        }
+    }
+}
+
+

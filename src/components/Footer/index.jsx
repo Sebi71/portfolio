@@ -2,6 +2,11 @@ import logo from "../../assets/images/logo.webp"
 import { MdAlternateEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+// import { FaMapLocationDot } from "react-icons/fa6";
+import { CiLocationOn } from "react-icons/ci";
+
+
+
 import "./index.scss"
 
 export default function Footer() {
@@ -44,6 +49,16 @@ export default function Footer() {
                             target="_blank" 
                             rel="noreferrer">
                                 Lien GitHub
+                        </a>
+                    </li>
+                    <li className="link-footer">
+                        <CiLocationOn className="location"/>
+                        <a 
+                            className="link"
+                            href="https://maps.app.goo.gl/vBLG2MEn7vVzMiJx6"
+                            target="_blank" 
+                            rel="noreferrer">
+                                71300 Montceaux les Mines, France
                         </a>
                     </li>
                 </ul>

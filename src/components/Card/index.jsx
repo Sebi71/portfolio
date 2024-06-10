@@ -1,67 +1,73 @@
-// import PropTypes from "prop-types"
-// import { useState, useEffect } from "react"
-// import "./index.scss"
-// import { Link } from "react-router-dom";
+import PropTypes from "prop-types"
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import projects from "../../data/projects.json"
+import "./index.scss"
 
-// export default function Slider({images, filter}) {
-//     const [isHovered, setIsHovered] = useState(false);
-//     const [currentIndex, setCurrentIndex] = useState(0);
-//     const slideNumber = images.length
+export default function Card({ titleOne, titleTwo }) {
+  const [selectProject, setSelectProject] = useState("Tous")
 
-//     const handleMouseEnter = () => {
-//       setIsHovered(true);
-//     }
+  const handleFilter = (category) => {
+    setSelectProject(category)
+  }
 
-//     const handleMouseLeave = () => {
-//       setIsHovered(false);
-//     }
+  const filterProjects = projects.filter((project) =>
+    selectProject === "Tous" ? true : project.category === selectProject)
 
-//     useEffect(() => {
-//         const interval = setTimeout(() => {
-//         setCurrentIndex(currentIndex < slideNumber - 1 ? currentIndex + 1 : 0);
-//         }, 4000);
-//         return () => clearTimeout(interval);
-//     }, [currentIndex, slideNumber]);
+  return (
+    <section className='global-container-cards'>
+      <h2 className="title-page">{titleOne}</h2>
+      <div className="btn-container">
+        <button 
+          className="btn-filter" 
+          onClick={() => handleFilter('Tous')}>
+            Tous
+        </button>
+        <button 
+          className="btn-filter" 
+          onClick={() => handleFilter("cat1")}>
+            HTML / CSS
+        </button>
+        <button 
+          className="btn-filter"
+          onClick={() => handleFilter("cat2")}>
+            JavaScript
+        </button>
+        <button 
+          className="btn-filter"
+          onClick={() => handleFilter("cat3")}>
+            React
+        </button>
+        <button 
+          className="btn-filter"
+          onClick={() => handleFilter("cat4")}>
+            Autres
+        </button>
+        </div>
+      <div className="section-container">
+        <h3 className="title-section">{titleTwo}</h3>
+        <div className="card-content">
+          {filterProjects.map((project, index) => (
+            <Link key={index} to={`/projects/${project.title}`}>
+              <article>
+                <img 
+                  className="card-img"
+                  src={project.cover} 
+                  alt={project.title} />
+                {/* <div>
+                  <h4>{project.title}</h4>
+                  <p>{project.resum}</p>
+                </div> */}
+              </article>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
 
-//   return (
-//     <div 
-//       className="slider"
-//       onMouseEnter={handleMouseEnter}
-//       onMouseLeave={handleMouseLeave}>
-//         {images.map((image, index) => (
-//         currentIndex === index && (
-//           <img className={` slide slide--${
-//             currentIndex === index && "display"}`} 
-//             key={index} 
-//             src={image} 
-//             alt="" />)
-//         ))}
-//         {isHovered && (
-//           <Link 
-//             to="/projects"
-//             className={filter}>
-//               <h2 className="decover-title">Découvrir mes projets</h2>
-//           </Link>
-//         )}
-//         <fieldset className="radio-button">
-//           <legend aria-label="Naviguer entre les slides" />
-//           {images?.map((_, radioIdx) => (
-//             <input
-//               className="radio-button__input"
-//               key={radioIdx}
-//               type="radio"
-//               name="radio-button"
-//               aria-label={`radio button slide ${radioIdx + 1}`}
-//               checked={currentIndex === radioIdx}
-//               onChange={() => setCurrentIndex(radioIdx)}
-//             />
-//           ))}
-//         </fieldset>
-//     </div>
-//   )
-// }
-
-// Slider.propTypes = {
-//   images: PropTypes.array,
-//   filter: PropTypes.string
-// }
+Card.propTypes = {
+  titleOne: PropTypes.string,
+  titleTwo: PropTypes.string,
+}

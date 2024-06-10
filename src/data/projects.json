@@ -1,7 +1,9 @@
 [
     {
         "id": 1,
+        "category": "cat1",
         "title": "Riding-Cities",
+        "resum": "Actualisation de la page Internet",
         "cover": "/RidingCities/cover.webp",
         "pictures": [
             "/src/assets/images/RidingCities/cover.webp",
@@ -16,7 +18,9 @@
     },
     {
         "id": 2,
+        "category": "cat1",
         "title": "Booki",
+        "resum": "Création d'une page d'accueil",
         "cover": "/Booki/cover.webp",
         "pictures": [
             "/src/assets/images/Booki/cover.webp",
@@ -38,6 +42,8 @@
     {
         "id": 3,
         "title": "Oh my Food",
+        "category": "cat1",
+        "resum": "Développement d'un site en mobil first",
         "cover": "/src/assets/images/OhMyFood/cover.webp",
         "pictures": [
             "/src/assets/images/OhMyFood/loading.webp",
@@ -58,7 +64,9 @@
     },
     {
         "id": 4,
+        "category": "cat2",
         "title": "Print-It",
+        "resum": "Réalisation d'un carrousel",
         "cover": "/src/assets/images/PrintIt/slider-one.webp",
         "pictures": [
             "/src/assets/images/PrintIt/slider-one.webp",
@@ -76,7 +84,9 @@
     },
     {
         "id": 5,
+        "category": "cat2",
         "title": "Sophie Bluel, architecte d'intérieur",
+        "resum": "Création d'une page web dynamique",
         "cover": "/src/assets/images/SophieBluel/cover.webp",
         "pictures": [
             "/src/assets/images/SophieBluel/cover.webp",
@@ -97,7 +107,9 @@
     },
     {
         "id": 6,
+        "category": "cat3",
         "title": "Kasa",
+        "resum": "Création d'une application web",
         "cover": "/src/assets/images/Kasa/cover.webp",
         "pictures": [
             "/src/assets/images/Kasa/cover.webp",
@@ -120,7 +132,9 @@
     },
     {
         "id": 7,
+        "category": "cat1",
         "title": "Nina Carducci, photographe",
+        "resum": "Optimisation du référencement",
         "cover": "/src/assets/images/NinaCarducci/cover.webp",
         "pictures": [
             "/src/assets/images/NinaCarducci/cover.webp",
@@ -141,7 +155,9 @@
     },
     {
         "id": 8,
+        "category": "cat4",
         "title": "724 Events",
+        "resum": "Correction de bugs",
         "cover": "/src/assets/images/724Events/cover.webp",
         "pictures": [
             "/src/assets/images/724Events/cover.webp",
@@ -161,7 +177,9 @@
     },
     {
         "id": 9,
+        "category": "cat3",
         "title": "Argent Bank",
+        "resum": "Implementation du front-end",
         "cover": "/src/assets/images/ArgentBank/cover.webp",
         "pictures": [
             "/src/assets/images/ArgentBank/cover.webp",
