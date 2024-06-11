@@ -1,7 +1,7 @@
 @import "../../assets/styles/base/variables.scss";
 
 .global-container-cards {
-    background: linear-gradient(180deg, #000 0%, #142557 100%);
+    background: linear-gradient(180deg, #142557 0%, #34426e 100%);
     padding: 30px 20px 70px 20px;
     
     @media (min-width: 768px){
@@ -36,10 +36,17 @@
 
     .section-container {
         max-width: 1440px;
+        margin: auto;
+        padding: 0 60px;
+        margin-top: 40px;
+        background: linear-gradient(180deg, #142557 0%, #34426e 100%);
+        border-radius: 25px;
         
         .title-section {
             width: 50%;
             font-size: 28px;
+            margin: 0;
+            padding-top: 25px;
         }
         
         .card-content {
@@ -49,6 +56,7 @@
 
             @media (min-width: 768px){
                 grid-template-columns: repeat(2, 1fr);
+                padding: 80px 0;
             }
 
             @media (min-width: 1024px){
