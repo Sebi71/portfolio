@@ -13,7 +13,7 @@ return (
                     <img
                         className="skills"
                         src={logo.icon} 
-                        alt={logo.title} />
+                        alt={`compétences ${logo.title}`} />
                     <h3 className="logo-title">{logo.title}</h3>
                 </div>
             ))}
@@ -27,7 +27,7 @@ return (
                     <img
                         className="skills" 
                         src={logo.icon} 
-                        alt={logo.title} />
+                        alt={`compétences ${logo.title}`} />
                     <h3 className="logo-title">{logo.title}</h3>
                 </div>
             ))}

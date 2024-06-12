@@ -3,7 +3,6 @@ import AboutMe from "../../components/AboutMe";
 import Slider from "../../components/Slider";
 import Skills from "../../components/Skills";
 import Footer from "../../components/Footer";
-import { useNavigate } from "react-router-dom";
 
 import { useEffect } from "react";
 import { gsap } from "gsap"
@@ -44,11 +43,6 @@ export default function Home() {
     slideInLeft("#box2")
   },[])
 
-  const navigate = useNavigate();
-
-  const handleSliderClick = () => {
-    navigate('/projects');
-  }
 
   return (
     <>
@@ -60,8 +54,7 @@ export default function Home() {
                 title="MES PROJETS"
                 images={projects.map(project => project.cover)}
                 filter={true}
-                btnRadio={false}
-                navigate={handleSliderClick}/>
+                btnRadio={false}/>
             </div>
             <div id="box2">
               <Skills />

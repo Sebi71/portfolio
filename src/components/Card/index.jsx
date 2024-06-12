@@ -16,7 +16,7 @@ export default function Card({ titleOne, titleTwo }) {
 
   return (
     <section className='global-container-cards'>
-      <h2 className="title-page">{titleOne}</h2>
+      <h1 className="title-page">{titleOne}</h1>
       <div className="btn-container">
         <button 
           className="btn-filter" 
@@ -45,21 +45,23 @@ export default function Card({ titleOne, titleTwo }) {
         </button>
         </div>
       <div className="section-container">
-        <h3 className="title-section">{titleTwo}</h3>
+        <h2 className="title-section">{titleTwo}</h2>
         <div className="card-content">
           {filterProjects.map((project, index) => (
-            <Link key={index} to={`/projects/${project.title}`}>
-              <article>
+            <div key={index}>
+              <article className="card">
                 <img 
                   className="card-img"
                   src={project.cover} 
-                  alt={project.title} />
-                {/* <div>
-                  <h4>{project.title}</h4>
-                  <p>{project.resum}</p>
-                </div> */}
+                  alt={`image du projet ${project.title}`} />
+                <div className="card-info">
+                  <h3 className="card-title">{project.title}</h3>
+                </div>
+                <Link className="card-link" to={`/projects/${project.title}`}>
+                  <span className="card-btn">Découvrir le projet</span>
+                </Link>
               </article>
-            </Link>
+            </div>
           ))}
         </div>
       </div>

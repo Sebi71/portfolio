@@ -6,10 +6,10 @@
         "resum": "Actualisation de la page Internet",
         "cover": "/RidingCities/cover.webp",
         "pictures": [
-            "/src/assets/images/RidingCities/cover.webp",
-            "/src/assets/images/RidingCities/main-one.webp",
-            "/src/assets/images/RidingCities/main-two.webp",
-            "/src/assets/images/RidingCities/footer.webp"
+            "/RidingCities/cover.webp",
+            "/RidingCities/main-one.webp",
+            "/RidingCities/main-two.webp",
+            "/RidingCities/footer.webp"
         ],
         "description": "text à mettre",
         "skills": "HTML",
@@ -23,13 +23,13 @@
         "resum": "Création d'une page d'accueil",
         "cover": "/Booki/cover.webp",
         "pictures": [
-            "/src/assets/images/Booki/cover.webp",
-            "/src/assets/images/Booki/main-one.webp",
-            "/src/assets/images/Booki/main-two.webp",
-            "/src/assets/images/Booki/mobil-cover.webp",
-            "/src/assets/images/Booki/mobil-main-one.webp",
-            "/src/assets/images/Booki/mobil-main-two.webp",
-            "/src/assets/images/Booki/mobil-main-three.webp"
+            "/Booki/cover.webp",
+            "/Booki/main-one.webp",
+            "/Booki/main-two.webp",
+            "/Booki/mobil-cover.webp",
+            "/Booki/mobil-main-one.webp",
+            "/Booki/mobil-main-two.webp",
+            "/Booki/mobil-main-three.webp"
         ],
         "description": "text à mettre",
         "skills": [
@@ -44,15 +44,15 @@
         "title": "Oh my Food",
         "category": "cat1",
         "resum": "Développement d'un site en mobil first",
-        "cover": "/src/assets/images/OhMyFood/cover.webp",
+        "cover": "/OhMyFood/cover.webp",
         "pictures": [
-            "/src/assets/images/OhMyFood/loading.webp",
-            "/src/assets/images/OhMyFood/cover.webp",
-            "/src/assets/images/OhMyFood/main.webp",
-            "/src/assets/images/OhMyFood/menu.webp",
-            "/src/assets/images/OhMyFood/mobil-cover.webp",
-            "/src/assets/images/OhMyFood/mobil-main.webp",
-            "/src/assets/images/OhMyFood/mobil-menu.webp"
+            "/OhMyFood/loading.webp",
+            "/OhMyFood/cover.webp",
+            "/OhMyFood/main.webp",
+            "/OhMyFood/menu.webp",
+            "/OhMyFood/mobil-cover.webp",
+            "/OhMyFood/mobil-main.webp",
+            "/OhMyFood/mobil-menu.webp"
         ],
         "description": "text à mettre",
         "skills": [
@@ -67,12 +67,12 @@
         "category": "cat2",
         "title": "Print-It",
         "resum": "Réalisation d'un carrousel",
-        "cover": "/src/assets/images/PrintIt/slider-one.webp",
+        "cover": "/PrintIt/slider-one.webp",
         "pictures": [
-            "/src/assets/images/PrintIt/slider-one.webp",
-            "/src/assets/images/PrintIt/slider-two.webp",
-            "/src/assets/images/PrintIt/slider-three.webp",
-            "/src/assets/images/PrintIt/slider-four.webp"
+            "/PrintIt/slider-one.webp",
+            "/PrintIt/slider-two.webp",
+            "/PrintIt/slider-three.webp",
+            "/PrintIt/slider-four.webp"
         ],
         "description": "text à mettre",
         "skills": [
@@ -87,14 +87,14 @@
         "category": "cat2",
         "title": "Sophie Bluel, architecte d'intérieur",
         "resum": "Création d'une page web dynamique",
-        "cover": "/src/assets/images/SophieBluel/cover.webp",
+        "cover": "/SophieBluel/cover.webp",
         "pictures": [
-            "/src/assets/images/SophieBluel/cover.webp",
-            "/src/assets/images/SophieBluel/categories.webp",
-            "/src/assets/images/SophieBluel/categories-filter.webp",
-            "/src/assets/images/SophieBluel/connexion-error.webp",
-            "/src/assets/images/SophieBluel/delete-modal.webp",
-            "/src/assets/images/SophieBluel/add-modal.webp"
+            "/SophieBluel/cover.webp",
+            "/SophieBluel/categories.webp",
+            "/SophieBluel/categories-filter.webp",
+            "/SophieBluel/connexion-error.webp",
+            "/SophieBluel/delete-modal.webp",
+            "/SophieBluel/add-modal.webp"
         ],
         "description": "text à mettre",
         "skills": [
@@ -110,16 +110,16 @@
         "category": "cat3",
         "title": "Kasa",
         "resum": "Création d'une application web",
-        "cover": "/src/assets/images/Kasa/cover.webp",
+        "cover": "/Kasa/cover.webp",
         "pictures": [
-            "/src/assets/images/Kasa/cover.webp",
-            "/src/assets/images/Kasa/housing.webp",
-            "/src/assets/images/Kasa/about.webp",
-            "/src/assets/images/Kasa/error-page.webp",
-            "/src/assets/images/Kasa/mobil-cover.webp",
-            "/src/assets/images/Kasa/mobil-housing.webp",
-            "/src/assets/images/Kasa/mobil-about.webp",
-            "/src/assets/images/Kasa/mobil-error-page.webp"
+            "/Kasa/cover.webp",
+            "/Kasa/housing.webp",
+            "/Kasa/about.webp",
+            "/Kasa/error-page.webp",
+            "/Kasa/mobil-cover.webp",
+            "/Kasa/mobil-housing.webp",
+            "/Kasa/mobil-about.webp",
+            "/Kasa/mobil-error-page.webp"
         ],
         "description": "text à mettre",
         "skills": [
@@ -135,15 +135,15 @@
         "category": "cat1",
         "title": "Nina Carducci, photographe",
         "resum": "Optimisation du référencement",
-        "cover": "/src/assets/images/NinaCarducci/cover.webp",
+        "cover": "/NinaCarducci/cover.webp",
         "pictures": [
-            "/src/assets/images/NinaCarducci/cover.webp",
-            "/src/assets/images/NinaCarducci/main.webp",
-            "/src/assets/images/NinaCarducci/categories.webp",
-            "/src/assets/images/NinaCarducci/services.webp",
-            "/src/assets/images/NinaCarducci/contact.webp",
-            "/src/assets/images/NinaCarducci/front-lighthouse.webp",
-            "/src/assets/images/NinaCarducci/back-lighthouse.webp"
+            "/NinaCarducci/cover.webp",
+            "/NinaCarducci/main.webp",
+            "/NinaCarducci/categories.webp",
+            "/NinaCarducci/services.webp",
+            "/NinaCarducci/contact.webp",
+            "/NinaCarducci/front-lighthouse.webp",
+            "/NinaCarducci/back-lighthouse.webp"
         ],
         "description": "text à mettre",
         "skills": [
@@ -158,14 +158,14 @@
         "category": "cat4",
         "title": "724 Events",
         "resum": "Correction de bugs",
-        "cover": "/src/assets/images/724Events/cover.webp",
+        "cover": "/724Events/cover.webp",
         "pictures": [
-            "/src/assets/images/724Events/cover.webp",
-            "/src/assets/images/724Events/categories.webp",
-            "/src/assets/images/724Events/categories-filtred.webp",
-            "/src/assets/images/724Events/contact.webp",
-            "/src/assets/images/724Events/contact-succes.webp",
-            "/src/assets/images/724Events/footer.webp"
+            "/724Events/cover.webp",
+            "/724Events/categories.webp",
+            "/724Events/categories-filtred.webp",
+            "/724Events/contact.webp",
+            "/724Events/contact-succes.webp",
+            "/724Events/footer.webp"
         ],
         "description": "text à mettre",
         "skills": [
@@ -180,16 +180,16 @@
         "category": "cat3",
         "title": "Argent Bank",
         "resum": "Implementation du front-end",
-        "cover": "/src/assets/images/ArgentBank/cover.webp",
+        "cover": "/ArgentBank/cover.webp",
         "pictures": [
-            "/src/assets/images/ArgentBank/cover.webp",
-            "/src/assets/images/ArgentBank/signin.webp",
-            "/src/assets/images/ArgentBank/account.webp",
-            "/src/assets/images/ArgentBank/account-two.webp",
-            "/src/assets/images/ArgentBank/user-form.webp",
-            "/src/assets/images/ArgentBank/mobil-cover.webp",
-            "/src/assets/images/ArgentBank/mobil-signin.webp",
-            "/src/assets/images/ArgentBank/mobil-account.webp"
+            "/ArgentBank/cover.webp",
+            "/ArgentBank/signin.webp",
+            "/ArgentBank/account.webp",
+            "/ArgentBank/account-two.webp",
+            "/ArgentBank/user-form.webp",
+            "/ArgentBank/mobil-cover.webp",
+            "/ArgentBank/mobil-signin.webp",
+            "/ArgentBank/mobil-account.webp"
         ],
         "description": "text à mettre",
         "skills": [

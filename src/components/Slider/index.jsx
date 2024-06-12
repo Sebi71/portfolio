@@ -1,7 +1,9 @@
 import PropTypes from "prop-types"
 import { useState, useEffect } from "react"
+import { Link } from "react-router-dom";
+
 import "./index.scss"
-export default function Slider({title, images, filter, btnRadio, navigate}) {
+export default function Slider({title, images, filter, btnRadio}) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const slideNumber = images.length;
 
@@ -22,13 +24,12 @@ export default function Slider({title, images, filter, btnRadio, navigate}) {
               currentIndex === index && "display"}`} 
               key={index} 
               src={image} 
-              alt=""
-              onClick={navigate} />)
+              alt="" />)
           ))}
           {filter && (
-            <div className="view">
-                <h2 className="decover-title">Découvrir mes projets</h2>
-            </div>
+            <Link to="/projects" className="view">
+              <span className="decover-title">Découvrir mes projets</span>
+            </Link>
           )}
           {btnRadio && (
             <fieldset className="radio-button">
@@ -55,6 +56,5 @@ Slider.propTypes = {
   title: PropTypes.string,
   images: PropTypes.array,
   filter: PropTypes.bool,
-  btnRadio: PropTypes.bool,
-  navigate: PropTypes.func
+  btnRadio: PropTypes.bool
 }
