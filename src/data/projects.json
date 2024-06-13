@@ -12,7 +12,11 @@
             "/RidingCities/footer.webp"
         ],
         "description": "text à mettre",
-        "skills": "HTML",
+        "skills": [
+            {
+                "name": "HTML"
+            }
+        ],
         "githubLink": "https://github.com/Sebi71/riding-cities.git",
         "liveLink": "https://sebastienj-riding-cities.vercel.app/"
     },
@@ -30,8 +34,12 @@
         ],
         "description": "text à mettre",
         "skills": [
-                "HTML",
-                "CSS"
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "CSS"
+            }
         ],
         "githubLink": "https://github.com/Sebi71/BOOKI.git",
         "liveLink": "https://sebastienj-booki.vercel.app/"
@@ -51,8 +59,12 @@
         ],
         "description": "text à mettre",
         "skills": [
-                "HTML",
-                "SASS"
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "SASS"
+            }
         ],
         "githubLink": "https://github.com/Sebi71/OhMyFood.git",
         "liveLink": "https://sebastienj-ohmyfood.vercel.app/"
@@ -71,8 +83,12 @@
         ],
         "description": "text à mettre",
         "skills": [
-                "JS",
-                "CSS"
+            {
+                "name": "JavaScript"
+            },
+            {
+                "name": "CSS"
+            }
         ],
         "githubLink": "https://github.com/Sebi71/Print_It.git",
         "liveLink": "https://sebastienj-print-it.vercel.app/"
@@ -93,9 +109,15 @@
         ],
         "description": "text à mettre",
         "skills": [
-                "JS",
-                "CSS",
-                "HTML"
+            {
+                "name": "JavaScript"
+            },
+            {
+                "name": "CSS"
+            },
+            {
+                "name": "HTML"
+            }
         ],
         "githubLink": "https://github.com/Sebi71/Portfolio-architecte-sophie-bluel.git",
         "liveLink": ""
@@ -115,9 +137,15 @@
         ],
         "description": "text à mettre",
         "skills": [
-                "REACT",
-                "SASS",
-                "HTML"
+            {
+                "name": "ReactJS"
+            },
+            {
+                "name": "SASS"
+            },
+            {
+                "name": "HTML"
+            }
         ],
         "githubLink": "https://github.com/Sebi71/Kasa.git",
         "liveLink": "https://sebastienj-kasa.vercel.app/"
@@ -139,8 +167,9 @@
         ],
         "description": "text à mettre",
         "skills": [
-                "HTML",
-                "SEO"
+            {
+                "name": "HTML"
+            }
         ],
         "githubLink": "https://github.com/Sebi71/nina-carducci.git",
         "liveLink": "https://sebastienj-nina-carducci.vercel.app/"
@@ -161,8 +190,12 @@
         ],
         "description": "text à mettre",
         "skills": [
-                "REACT",
-                "JEST"
+            {
+                "name": "ReactJS"
+            },
+            {
+                "name": "JEST"
+            }
         ],
         "githubLink": "https://github.com/Sebi71/724-Events.git",
         "liveLink": "https://sebastienj-724events.vercel.app/"
@@ -183,9 +216,12 @@
         ],
         "description": "text à mettre",
         "skills": [
-                "REACT",
-                "SASS",
-                "HTML"
+            {
+                "name": "SASS"
+            },
+            {
+                "name": "HTML"
+            }
         ],
         "githubLink": "https://github.com/Sebi71/ArgentBank-website.git",
         "liveLink": ""

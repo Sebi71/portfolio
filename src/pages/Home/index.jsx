@@ -51,6 +51,7 @@ export default function Home() {
           <section className="slider-skills">
             <div id="box1">
               <Slider 
+                home={true}
                 title="MES PROJETS"
                 time={2500}
                 images={projects.map(project => project.cover)}

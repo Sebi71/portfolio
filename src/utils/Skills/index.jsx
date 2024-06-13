@@ -14,14 +14,31 @@ import mysql from '../../assets/images/skills/mysql.svg'
 import php from '../../assets/images/skills/php.svg'
 import python from '../../assets/images/skills/python.svg'
 
+const skillsForProject = {
+  "HTML": html,
+  "CSS": css,
+  "SASS": sass,
+  "JavaScript": js,
+  "ReactJS": react,
+  "Redux": redux,
+  "Figma": figma,
+  "Git": git,
+  "VsCode": vscode,
+  "NodeJS": node,
+  "MongoDB": mongo,
+  "MySQL": mysql,
+  "PHP": php,
+  "Python": python,
+};
+
 const acquiredSkills = [
   {
     icon: html,
-    title: "HTML5",
+    title: "HTML",
   },
   {
     icon: css,
-    title: "CSS3",
+    title: "CSS",
   },
   {
     icon: sass,
@@ -29,7 +46,7 @@ const acquiredSkills = [
   },
   {
     icon: js,
-    title: "Javascript",
+    title: "JavaScript",
   },
   {
     icon: react,
@@ -76,4 +93,4 @@ const notAcquiredSkills = [
 },
 ]
 
-export {acquiredSkills, notAcquiredSkills};
+export {acquiredSkills, notAcquiredSkills, skillsForProject};

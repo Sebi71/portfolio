@@ -1,0 +1,57 @@
+.accordion-container {
+    max-width: 75%;
+    margin: 40px auto 0 auto;
+    border-radius: 25px;
+
+    
+    .accordion {
+        background: linear-gradient(180deg, #142557 0%, #34426e 100%);
+        border-radius: 25px;
+        margin-top: 10px;
+        border-bottom: none;
+
+        .accordion-title {
+            font-size: 14px;
+
+            @media (min-width: 768px) {
+                font-size: 18px;
+            }
+        }
+
+        .skills-container {
+            display: flex;
+            justify-content: center;
+
+            .skills-content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 10px 5px;
+
+                @media (min-width: 768px){
+                    margin: 18px 22px;
+                }
+
+                .skills-project {
+                    height: 20px;
+                    aspect-ratio: 1/1;
+        
+                    @media (min-width: 768px){
+                        height: 70px;
+                    }
+                }
+
+                .skills-title {
+                    font-size: 12px;
+                    margin-top: 12px;
+
+                    @media (min-width: 768px){
+                        font-size: 18px;
+                        margin-top: 18px;
+                    }
+                }
+            }
+        }
+
+    }
+}

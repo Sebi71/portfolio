@@ -1,7 +1,9 @@
 import Footer from "../../components/Footer";
 import NavBar from "../../components/NavBar";
 import { useParams } from "react-router-dom";
+import NotFound from "../NotFound";
 import Slider from "../../components/Slider";
+import CustomizedAccordions from "../../components/Collapse";
 
 import "./index.scss"
 import projects from "../../data/projects.json"
@@ -13,9 +15,7 @@ export default function ProjectInfo() {
   if (!project) {
     return (
       <>
-        <NavBar />
-        <div><h2>Projet non trouvé</h2></div>
-        <Footer />
+        <NotFound />
       </>
     );
   }
@@ -26,10 +26,17 @@ export default function ProjectInfo() {
       <section className="container-project">
         <h1 className="project-title">{project.title}</h1>
         <Slider
+          home={false}
           time={3000}
           images={project.pictures}
           filter={false}
           btnRadio={true} />
+          <CustomizedAccordions
+            resum={project.resum}
+            description={project.description}
+            githubLink={project.githubLink}
+            liveLink={project.liveLink}
+            skills={project.skills} />
       </section>
       <Footer />
     </>

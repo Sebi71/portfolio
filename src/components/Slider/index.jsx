@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useSwipeable } from "react-swipeable";
 
 import "./index.scss"
-export default function Slider({title, time, images, filter, btnRadio}) {
+export default function Slider({home, title, time, images, filter, btnRadio}) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const slideNumber = images.length;
 
@@ -33,7 +33,9 @@ export default function Slider({title, time, images, filter, btnRadio}) {
 
   return (
     <>
-      <h2 className="slider-title">{title}</h2>
+      {home && 
+        <h2 className="slider-title">{title}</h2>
+      }
       <div className="slider" {...handlers}>
           {images.map((image, index) => (
           currentIndex === index && (
@@ -50,7 +52,7 @@ export default function Slider({title, time, images, filter, btnRadio}) {
           )}
           {btnRadio && (
             <fieldset className="radio-button">
-              <legend aria-label="Naviguer entre les slides" />
+              <legend />
               {images?.map((_, radioIdx) => (
                 <input
                   className="radio-button__input"
@@ -70,6 +72,7 @@ export default function Slider({title, time, images, filter, btnRadio}) {
 }
 
 Slider.propTypes = {
+  home: PropTypes.bool,
   title: PropTypes.string,
   time: PropTypes.number.isRequired,
   images: PropTypes.array.isRequired,
