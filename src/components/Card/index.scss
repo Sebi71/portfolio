@@ -1,7 +1,7 @@
 @import "../../assets/styles/base/variables.scss";
 
 .global-container-cards {
-  background: linear-gradient(180deg, #142557 0%, #34426e 100%);
+  background: radial-gradient(50% 50% at 50% 50%, #142557 0%, #34426E 100%);
   padding: 30px 20px 70px 20px;
 
   @media (min-width: 768px) {
@@ -13,7 +13,7 @@
     font-size: 24px;
 
     @media (min-width: 768px) {
-      font-size: 32px;
+      font-size: 40px;
     }
   }
 

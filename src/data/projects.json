@@ -26,10 +26,7 @@
             "/Booki/cover.webp",
             "/Booki/main-one.webp",
             "/Booki/main-two.webp",
-            "/Booki/mobil-cover.webp",
-            "/Booki/mobil-main-one.webp",
-            "/Booki/mobil-main-two.webp",
-            "/Booki/mobil-main-three.webp"
+            "/Booki/mobil.webp"
         ],
         "description": "text à mettre",
         "skills": [
@@ -50,9 +47,7 @@
             "/OhMyFood/cover.webp",
             "/OhMyFood/main.webp",
             "/OhMyFood/menu.webp",
-            "/OhMyFood/mobil-cover.webp",
-            "/OhMyFood/mobil-main.webp",
-            "/OhMyFood/mobil-menu.webp"
+            "/OhMyFood/mobil.webp"
         ],
         "description": "text à mettre",
         "skills": [
@@ -116,10 +111,7 @@
             "/Kasa/housing.webp",
             "/Kasa/about.webp",
             "/Kasa/error-page.webp",
-            "/Kasa/mobil-cover.webp",
-            "/Kasa/mobil-housing.webp",
-            "/Kasa/mobil-about.webp",
-            "/Kasa/mobil-error-page.webp"
+            "/Kasa/mobil.webp"
         ],
         "description": "text à mettre",
         "skills": [
@@ -187,9 +179,7 @@
             "/ArgentBank/account.webp",
             "/ArgentBank/account-two.webp",
             "/ArgentBank/user-form.webp",
-            "/ArgentBank/mobil-cover.webp",
-            "/ArgentBank/mobil-signin.webp",
-            "/ArgentBank/mobil-account.webp"
+            "/ArgentBank/mobil.webp"
         ],
         "description": "text à mettre",
         "skills": [

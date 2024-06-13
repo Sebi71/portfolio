@@ -10,14 +10,13 @@
     flex-direction: column;
 
     .title-about-me {
-        width: 300px;
-        margin: 0 auto;
-        padding-top: 40px;
+        margin-top: 20px;
         text-align: center;
         font-size: 24px;
 
         @media (min-width: 768px){
-            font-size: 32px;
+            margin-top: 40px;
+            font-size: 40px;
         }
     }
 
@@ -25,21 +24,24 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 30px;
+        padding: 0 30px 30px 30px;
         
         @media (min-width: 768px){
             flex-direction: row;
-            padding: 30px 70px;
+            padding: 0 70px 30px 70px;
         }
 
         .photo-profil {
             width: 120px;
             height: 100%;
             border-radius: 50%;
-            margin: auto;
+            margin-bottom: 20px;
             animation: appearance 1s ease-in-out;
 
             @media (min-width: 768px){
+                display: flex;
+                align-items: center;
+                margin: auto;
                 width: 250px;
                 margin-right: 70px;
             }

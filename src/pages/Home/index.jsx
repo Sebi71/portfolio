@@ -52,6 +52,7 @@ export default function Home() {
             <div id="box1">
               <Slider 
                 title="MES PROJETS"
+                time={2500}
                 images={projects.map(project => project.cover)}
                 filter={true}
                 btnRadio={false}/>
