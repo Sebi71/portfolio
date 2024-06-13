@@ -1,5 +1,6 @@
 import * as React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import { styled } from "@mui/material/styles";
 import ArrowForwardIosSharpIcon from "@mui/icons-material/ArrowForwardIosSharp";
 import MuiAccordion from "@mui/material/Accordion";
@@ -8,6 +9,9 @@ import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 
 import { skillsForProject } from "../../utils/Skills";
+import { FaGithub } from "react-icons/fa";
+import { FaLink } from "react-icons/fa6";
+
 import "./index.scss";
 
 const Accordion = styled((props) => (
@@ -46,7 +50,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderTop: "1px solid rgba(0, 0, 0, .125)",
 }));
 
-export default function CustomizedAccordions({ resum, description, skills }) {
+export default function CustomizedAccordions({ resum, description, githubLink, liveLink,skills }) {
   const [expanded, setExpanded] = React.useState("panel1");
 
   const handleChange = (panel) => (event, newExpanded) => {
@@ -65,6 +69,24 @@ export default function CustomizedAccordions({ resum, description, skills }) {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>{description}</Typography>
+          <div className="content-link">
+            <Link 
+              className="link"
+              to={githubLink}
+              target="_blank" 
+              rel="noreferrer">
+                Github <FaGithub className="link-icon" />
+            </Link>
+          {liveLink && (
+            <Link 
+              className="link"
+              to={liveLink}
+              target="_blank" 
+              rel="noreferrer">
+                Voir le projet <FaLink className="link-icon" />
+            </Link>
+          )}
+          </div>
         </AccordionDetails>
       </Accordion>
       <Accordion
@@ -100,5 +122,7 @@ export default function CustomizedAccordions({ resum, description, skills }) {
 CustomizedAccordions.propTypes = {
   resum: PropTypes.string,
   description: PropTypes.string,
+  githubLink: PropTypes.string,
+  liveLink: PropTypes.string,
   skills: PropTypes.array.isRequired,
 };

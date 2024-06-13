@@ -1,8 +1,8 @@
 import logo from "../../assets/images/logo.webp"
+import { Link } from "react-router-dom";
 import { MdAlternateEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-// import { FaMapLocationDot } from "react-icons/fa6";
 import { CiLocationOn } from "react-icons/ci";
 
 
@@ -25,41 +25,41 @@ export default function Footer() {
                 <ul className="list-footer">
                     <li className="link-footer">
                         <MdAlternateEmail className="mail"/>
-                        <a 
+                        <Link 
                             className="link"
-                            href="mailto:seb.juillet@outlook.fr">
+                            to="mailto:seb.juillet@outlook.fr">
                                 seb.juillet@outlook.fr
-                        </a>
+                        </Link>
                     </li>
                     <li className="link-footer">
                         <FaLinkedin className="linkedin"/>
-                        <a 
+                        <Link 
                             className="link"
-                            href="https://www.linkedin.com/in/sébastien-juillet-327a17a7" 
+                            to="https://www.linkedin.com/in/sébastien-juillet-327a17a7" 
                             target="_blank" 
                             rel="noreferrer">
                                 Profil LinkedIn
-                        </a>
+                        </Link>
                         </li>
                     <li className="link-footer">
                         <FaGithub className="github"/>
-                        <a 
+                        <Link 
                             className="link"
-                            href="https://github.com/Sebi71" 
+                            to="https://github.com/Sebi71" 
                             target="_blank" 
                             rel="noreferrer">
                                 Lien GitHub
-                        </a>
+                        </Link>
                     </li>
                     <li className="link-footer">
                         <CiLocationOn className="location"/>
-                        <a 
+                        <Link 
                             className="link"
-                            href="https://maps.app.goo.gl/vBLG2MEn7vVzMiJx6"
+                            to="https://maps.app.goo.gl/vBLG2MEn7vVzMiJx6"
                             target="_blank" 
                             rel="noreferrer">
                                 71300 Montceaux les Mines, France
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
