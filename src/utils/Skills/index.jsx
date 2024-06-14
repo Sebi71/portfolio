@@ -14,6 +14,8 @@ import mysql from '../../assets/images/skills/mysql.svg'
 import php from '../../assets/images/skills/php.svg'
 import python from '../../assets/images/skills/python.svg'
 
+import jest from '../../assets/images/skills/jest.svg'
+
 const skillsForProject = {
   "HTML": html,
   "CSS": css,
@@ -29,6 +31,7 @@ const skillsForProject = {
   "MySQL": mysql,
   "PHP": php,
   "Python": python,
+  "Jest": jest,
 };
 
 const acquiredSkills = [
