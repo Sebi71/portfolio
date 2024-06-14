@@ -68,7 +68,7 @@ export default function CustomizedAccordions({ resum, description, githubLink, l
           <Typography className="accordion-title">{resum}</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>{description}</Typography>
+          <Typography className="accordion-description">{description}</Typography>
           <div className="content-link">
             <Link 
               className="link"

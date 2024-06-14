@@ -12,6 +12,22 @@
         margin-top: 10px;
         border-bottom: none;
 
+        .accordion-title {
+            font-size: 16px;
+
+            @media (min-width: 768px) {
+                font-size: 18px;
+            }
+        }
+
+        .accordion-description {
+            font-size: 14px;
+
+            @media (min-width: 768px) {
+                font-size: 16px;
+            }
+        }
+
         .content-link {
             display: flex;
             justify-content: center;
@@ -58,14 +74,6 @@
                         height: 30px;
                     }
                 }
-            }
-        }
-
-        .accordion-title {
-            font-size: 14px;
-
-            @media (min-width: 768px) {
-                font-size: 18px;
             }
         }
 

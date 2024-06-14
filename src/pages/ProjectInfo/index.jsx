@@ -1,9 +1,10 @@
-import Footer from "../../components/Footer";
 import NavBar from "../../components/NavBar";
-import { useParams } from "react-router-dom";
 import NotFound from "../NotFound";
 import Slider from "../../components/Slider";
 import CustomizedAccordions from "../../components/Collapse";
+import Footer from "../../components/Footer";
+import { useParams } from "react-router-dom";
+import { useEffect } from "react";
 
 import "./index.scss"
 import projects from "../../data/projects.json"
@@ -11,6 +12,10 @@ import projects from "../../data/projects.json"
 export default function ProjectInfo() {
   const { id } = useParams();
   const project = projects.find(project => project.title === id);
+  
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when component mounts
+  }, []);
 
   if (!project) {
     return (
@@ -19,6 +24,7 @@ export default function ProjectInfo() {
       </>
     );
   }
+
 
   return (
     <>

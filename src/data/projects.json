@@ -3,7 +3,7 @@
         "id": 1,
         "category": "cat1",
         "title": "Riding-Cities",
-        "resum": "Actualisation de la page Internet",
+        "resum": "Actualisation d'une page Internet",
         "cover": "/RidingCities/cover.webp",
         "pictures": [
             "/RidingCities/cover.webp",
@@ -11,7 +11,7 @@
             "/RidingCities/main-two.webp",
             "/RidingCities/footer.webp"
         ],
-        "description": "text à mettre",
+        "description": "En tant que stagiaire développeur junior, j'ai été confié à une mission passionnante : mettre à jour la page Internet de Riding Cities, une association dédiée à la promotion du skate dans notre région. mon objectif principal a été de moderniser leur site web en introduisant deux nouvelles fonctionnalités clés. Créer une section dédiée aux membres fondateurs, avec noms et photos. Et améliorer la section existante du planning des cours en ajoutant un titre distinct et en intégrant deux boutons permettant de télécharger les plannings.",
         "skills": [
             {
                 "name": "HTML"
@@ -32,7 +32,7 @@
             "/Booki/main-two.webp",
             "/Booki/mobil.webp"
         ],
-        "description": "text à mettre",
+        "description": "En tant qu'alternant développeur web au sein de la start-up Booki, une entreprise dynamique qui se spécialise dans la recherche d'hébergements et d'activités personnalisées dans différentes villes, mon rôle à été d'intégrer l'interface du site web en utilisant du code HTML et CSS.",
         "skills": [
             {
                 "name": "HTML"
@@ -57,7 +57,7 @@
             "/OhMyFood/menu.webp",
             "/OhMyFood/mobil.webp"
         ],
-        "description": "text à mettre",
+        "description": "Ohmyfood est une startup ambitieuse qui cherche à conquérir le marché de la restauration, déjà bien établie à New-York et maintenant prête à s'implanter à Paris. En tant que développeur junior, ma mission principale a été de développer un site web mobile first qui met en avant les menus des restaurants gastronomiques partenaires. A l'aide des maquettes, j'ai pu assurer une conception responsive optimisée pour mobile, tablette et desktop, tout en suivant rigoureusement les spécifications du brief. L'utilisation de SASS a été appliquée pour faciliter la gestion des styles et la création d'animations soignées.",
         "skills": [
             {
                 "name": "HTML"
@@ -81,7 +81,7 @@
             "/PrintIt/slider-three.webp",
             "/PrintIt/slider-four.webp"
         ],
-        "description": "text à mettre",
+        "description": "En tant que développeur front-end freelance, j'ai eu la chance de décrocher un projet qui consistait à dynamiser le site web statique de Print it, une petite imprimerie familiale. La mission de ce projet a été de réaliser un carrousel en utilisant du JavaScript. Ce carrousel devait boucler à l’infini, comporter plusieurs photos et afficher des bullets points qui évoluent en même temps que la photo.",
         "skills": [
             {
                 "name": "JavaScript"
@@ -107,7 +107,7 @@
             "/SophieBluel/delete-modal.webp",
             "/SophieBluel/add-modal.webp"
         ],
-        "description": "text à mettre",
+        "description": "En tant que développeur front-end pour l’agence ArchiWebos, j'ai été chargé du développement de plusieurs aspects clés du site de Sophie Bluel, une architect d'intérieur. La page de présentation des travaux de l'architecte, avec la possibilité de filtrer ceux-ci. La page de connexion de l'administrateur du site, afin d'accéder facilement aux fonctionnalités administratives du site. Et la modale d'upload de nouveaux médias, qui permettra à la cliente d'ajouter et de gérer efficacement ses photos. La mise en place d'appels API a été nécessaire pour ces différentes fonctionnalités.",
         "skills": [
             {
                 "name": "JavaScript"
@@ -135,7 +135,7 @@
             "/Kasa/error-page.webp",
             "/Kasa/mobil.webp"
         ],
-        "description": "text à mettre",
+        "description": "Kasa est une entreprise spécialisée dans la gestion de locations de logements entre particuliers depuis une dizaine d'années. Leur site web, initialement développé en ASP.NET il y a plus de 10 ans, nécessite une refonte complète. Ils souhaitent migrer vers une stack entièrement basée sur JavaScript, avec NodeJS pour le Back-end et React pour le Front-end. Mon rôle a été de développer l'intégralité de l'application en utilisant React.",
         "skills": [
             {
                 "name": "ReactJS"
@@ -165,7 +165,7 @@
             "/NinaCarducci/front-lighthouse.webp",
             "/NinaCarducci/back-lighthouse.webp"
         ],
-        "description": "text à mettre",
+        "description": "En tant que développeur front-end, j'ai réalisé un travail sur l'optimisation du site de Nina Carducci, une photographe. J'ai réduit le temps de chargement grâce à l'optimisation des images et du code. Les améliorations ont significativement boosté son SEO, augmentant sa visibilité et attirant plus de visiteurs qualifiés vers son portfolio en ligne. L'ajout du référencement local et le visuel pour les réseaux sociaux ont également été ajoutés au site.",
         "skills": [
             {
                 "name": "HTML"
@@ -188,7 +188,7 @@
             "/724Events/contact-succes.webp",
             "/724Events/footer.webp"
         ],
-        "description": "text à mettre",
+        "description": "En tant que développeur front-end freelance, j'ai eu l'opportunité de collaborer avec l'agence événtielle 724. Mon objectif était de résoudre les bugs restants et d'améliorer l'expérience utilisateur pour assurer un fonctionnement fluide du site. L'utilisation de Jest a été appliquée pour tester les fonctionnalités et le bon fonctionnement du site.",
         "skills": [
             {
                 "name": "ReactJS"
@@ -214,7 +214,7 @@
             "/ArgentBank/user-form.webp",
             "/ArgentBank/mobil.webp"
         ],
-        "description": "text à mettre",
+        "description": "Argent Bank est une banque en pleine création de son application, qui a été divisée en deux phases distinctes : l'authentification des utilisateurs et la gestion des transactions. Mon rôle a été d'intégrer entièrement le site en React. Ensuite, j'ai pris en charge les appels API, la gestion des jetons, ainsi que l'utilisation de Redux pour gérer l'état global de l'application. J'ai également contribué à la production de la documentation d'API avec Swagger.",
         "skills": [
             {
                 "name": "SASS"
