@@ -12,6 +12,7 @@ return (
                 <div className="content" key={index}>
                     <img
                         className="skills"
+                        title={logo.title} 
                         src={logo.icon} 
                         alt={`compétences ${logo.title}`} />
                     <h3 className="logo-title">{logo.title}</h3>
@@ -26,7 +27,8 @@ return (
                 <div className="content" key={index}>
                     <img
                         className="skills" 
-                        src={logo.icon} 
+                        src={logo.icon}
+                        title={logo.title} 
                         alt={`compétences ${logo.title}`} />
                     <h3 className="logo-title">{logo.title}</h3>
                 </div>
