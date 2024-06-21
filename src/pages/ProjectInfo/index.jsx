@@ -14,7 +14,7 @@ export default function ProjectInfo() {
   const project = projects.find(project => project.title === id);
   
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top of the page when component mounts
+    window.scrollTo(0, 0); 
   }, []);
 
   if (!project) {
