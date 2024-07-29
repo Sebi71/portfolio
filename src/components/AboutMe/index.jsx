@@ -5,7 +5,7 @@ import "./index.scss"
 export default function AboutMe() {
 
     const handleClick = () => {
-        window.open("https://drive.google.com/file/d/1i0iJAUweGEYHdtWtLGqRHIhV7fZuDToF/view?usp=sharing", "_blank");
+        window.open("https://drive.google.com/file/d/1GHss-nxKjxVADyvbLleaelikyLzsRV7s/view?usp=sharing", "_blank");
     }
 
   return (
