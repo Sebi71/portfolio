@@ -7,6 +7,7 @@ import redux from '../../assets/images/skills/redux.svg'
 import figma from '../../assets/images/skills/figma.svg'
 import git from '../../assets/images/skills/git.svg'
 import vscode from '../../assets/images/skills/vscode.svg'
+import firebase from '../../assets/images/skills/firebase.svg'
 
 import node from '../../assets/images/skills/nodejs.svg'
 import mongo from '../../assets/images/skills/mongodb.svg'
@@ -26,6 +27,7 @@ const skillsForProject = {
   "Figma": figma,
   "Git": git,
   "VsCode": vscode,
+  "Firebase": firebase,
   "NodeJS": node,
   "MongoDB": mongo,
   "MySQL": mysql,
@@ -58,6 +60,10 @@ const acquiredSkills = [
   {
     icon: redux,
     title: "Redux",
+  },
+  {
+    icon: firebase,
+    title: "Firebase",
   },
   {
     icon: figma,

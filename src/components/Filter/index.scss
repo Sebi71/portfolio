@@ -1,0 +1,30 @@
+@import "../../assets/styles/base/variables.scss";
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  .btn-filter {
+    background-color: $color-secondary;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-radius: 25px;
+    height: 35px;
+    cursor: pointer;
+    padding: 0 10px;
+    transition: all 350ms ease-in-out;
+
+    &:hover {
+      box-shadow: 0px 0px 30px 1px $color-secondary;
+      transform: scale(1.05);
+    }
+
+    @media (min-width: 768px) {
+      font-size: 18px;
+      min-width: 80px;
+    }
+  }
+}

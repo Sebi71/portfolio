@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "category": "cat1",
+        "title": "Blog-recettes",
+        "resum": "Réalisation d'un blog recettes",
+        "cover": "/BlogRecettes/cover.webp",
+        "pictures": [
+            "/BlogRecettes/cover.webp",
+            "/BlogRecettes/home-page.webp",
+            "/BlogRecettes/connexion-inscription.webp",
+            "/BlogRecettes/profil.webp",
+            "/BlogRecettes/cooking-list.webp",
+            "/BlogRecettes/cooking.webp",
+            "/BlogRecettes/add-cooking.webp",
+            "/BlogRecettes/mobil-one.webp",
+            "/BlogRecettes/mobil-two.webp"
+
+        ],
+        "description": "Sur mon temps personnel, j'ai créé un blog dédié aux recettes culinaires, permettant aux utilisateurs de partager les leurs. Le site offre plusieurs options : retranscrire ses propres recettes, ajouter des liens vers les recettes hébergées sur d'autres sites, ou encore télécharger des recettes stockées localement en format PDF. Pour la gestion des données, Firebase a été utilisé, tandis que SASS a été mis en place pour simplifier la mise en forme et garantir une présentation soignée.",
+        "skills": [
+            {
+                "name": "ReactJS"
+            },
+            {
+                "name": "Firebase"
+            },
+            {
+                "name": "SASS"
+            }
+        ],
+        "githubLink": "https://github.com/Sebi71/blog-recettes.git",
+        "liveLink": "https://mon-blog-recettes.vercel.app/"
+    }
+]

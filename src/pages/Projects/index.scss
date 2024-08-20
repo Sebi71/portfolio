@@ -1,0 +1,17 @@
+.global-container-cards {
+  background: radial-gradient(50% 50% at 50% 50%, #142557 0%, #34426e 100%);
+  padding: 10px 20px 70px 20px;
+
+  @media (min-width: 768px) {
+    padding: 20px 50px 70px 50px;
+  }
+
+  .title-page {
+    text-align: center;
+    font-size: 24px;
+
+    @media (min-width: 768px) {
+      font-size: 40px;
+    }
+  }
+}

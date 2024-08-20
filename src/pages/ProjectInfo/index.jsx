@@ -6,15 +6,18 @@ import Footer from "../../components/Footer";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 
-import "./index.scss"
-import projects from "../../data/projects.json"
+import "./index.scss";
+import projects from "../../data/projects.json";
+import projectsPerso from "../../data/projectsPerso.json";
 
 export default function ProjectInfo() {
   const { id } = useParams();
-  const project = projects.find(project => project.title === id);
-  
+  const project =
+    projects.find((project) => project.title === id) ||
+    projectsPerso.find((project) => project.title === id);
+
   useEffect(() => {
-    window.scrollTo(0, 0); 
+    window.scrollTo(0, 0);
   }, []);
 
   if (!project) {
@@ -24,7 +27,6 @@ export default function ProjectInfo() {
       </>
     );
   }
-
 
   return (
     <>
@@ -36,15 +38,17 @@ export default function ProjectInfo() {
           time={3000}
           images={project.pictures}
           filter={false}
-          btnRadio={true} />
-          <CustomizedAccordions
-            resum={project.resum}
-            description={project.description}
-            githubLink={project.githubLink}
-            liveLink={project.liveLink}
-            skills={project.skills} />
+          btnRadio={true}
+        />
+        <CustomizedAccordions
+          resum={project.resum}
+          description={project.description}
+          githubLink={project.githubLink}
+          liveLink={project.liveLink}
+          skills={project.skills}
+        />
       </section>
       <Footer />
     </>
-  )
+  );
 }
